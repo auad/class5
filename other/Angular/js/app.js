@@ -10,5 +10,6 @@ portfolioApp.controller('PortfolioListController', function($scope) {
 
 	$scope.addPortfolio = function( new_portfolio ){
 		$scope.portfolios.push(new_portfolio);
+		$scope.adding_portfolio = [ ];
 	}					 
 });
